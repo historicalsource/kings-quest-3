@@ -1,0 +1,1322 @@
+[
+[	words.txt
+[
+[					WORD LIST FOR KING'S QUEST ]I[
+[
+[	February 19, 1988
+[
+[
+[.i = .ignore
+[.d = .define
+[.s = .synonym
+[
+[	"A" and "I" are now automatically ignored.
+[
+
+
+
+.i	an							[	articles
+.i	the
+
+.i	mine							[	pronouns
+.i	my
+.i	your
+.i	you
+.i	it
+.i	its
+.i	this
+.i	that
+.i	those
+.i	these
+
+.i	around						[	prepositions
+.i	in
+.i	to
+.i   is
+.i	another
+.i	every
+.i	guess
+.i	and
+.i   will
+.i	of
+.i	oh
+.i	if
+.i	into
+.i	at
+.i	have
+.i	been
+.i	for
+
+.i	sprig						[	noun phrases
+
+
+.i	leather						[	adjectives
+.i	papa
+.i	mama
+.i	sack
+.i	sacks
+.i	baby
+.i	dried
+.i	hot
+.i	cold
+.i	palm
+.i	dead
+.i	good
+.i	bad
+.i	powdered
+.i	buried
+.i	ceramic
+.i	clay
+.i	oak
+.i	metal
+.i	brass
+.i	wooden
+.i	carving
+.i	pair
+.i	invisible
+.i	invisibility
+.i	abominable
+.i	silver
+.i	black
+.i	front
+.i	iron
+.i	tin
+.i	small
+.i	large
+.i	big
+.i	old
+.i   little
+.i	rose
+.i	petal
+.i	dining
+.i	underground
+.i	deerskin
+.i	deer$skin
+.i	tuft
+.i	tail
+
+.i	slowly						[	adverbs
+.i	quickly
+.i	soon
+.i	later
+.i	hurry
+.i	please
+.i	now
+.i	some
+.i	want
+.i	what
+.i	when
+.i	why
+
+
+.i	llewdor						[	places
+.i	cloudland
+.i	cloud$land
+.i	daventry
+
+
+
+
+[.d	anyword				1	[	anyword must remain as word #1, 
+							[	&& !defined
+
+.d	look					2
+.s	examine		look
+.s	feel			look
+.s	show			look
+.s	see			look
+.s	view			look
+.s	look$on		look
+
+.d	do					3
+.s	prepare		do
+.s	perform		do
+.s	fix			do
+.s	cast			do
+
+.d	tp					4
+
+.d	quit					5
+.s	stop			quit
+
+.d	position				6
+
+.d	slow					7
+
+.d	normal				8
+
+.d	fast					9
+
+.d	fastest				10
+
+.d	priority				11
+
+.d	sp					12
+
+.d	restart				13
+
+.d	get					14
+.s	take			get
+.s	pick			get
+.s	pick$up		get
+.s	catch		get
+.s	capture		get
+
+.d	reset				15
+
+.d	flag					16
+.s	flags		flag
+.s	banner		flag
+.s	banners		flag
+
+[.d	17
+
+.d	bye					18
+.s	good$bye		bye
+.s	so$long		bye
+
+.d	chart				19
+
+.d	bedroom				20
+
+.d	var					21
+
+.d	hall					22
+.s	hallway		hall
+
+.d	study				23
+.s	office		study
+
+.d	who					24
+
+.d	tavern				25
+.s	bar			tavern
+
+.d	kitchen				26
+
+.d	rise					27
+.s	stand		rise
+
+.d	laboratory			28
+.s	lab			laboratory
+
+.d	tower				30
+
+.d	floor				31
+.s	ground		floor
+.s	earth		floor
+.s	deck			floor
+.s	grass		floor
+.s	grasses		floor
+
+
+.d	telescope				32
+.s	spyglass		telescope
+
+.d	stair				33
+.s	stairs		stair
+.s	upstairs		stair
+.s	steps		stair
+.s	stairway		stair
+.s	staircase		stair
+
+.d	window				34
+.s	glass		window
+.s	pane			window
+.s	windows		window
+
+.d	fly					35
+.s	fly$wings		fly
+.s	wings		fly
+.s	bug			fly
+
+.d	open					36
+.s	lift			open
+
+.d	move					37
+.s	shove		move
+.s	push			move
+.s	pull			move
+.s	turn			move
+.s	replace		move
+
+.d	go					38
+.s	enter		go
+.s	exit			go
+.s	leave		go
+.s	get$out		go
+.s	board		go
+
+.d	climb				39
+
+.d	wizard				40
+.s	wiz			wizard
+.s	manannan		wizard
+.s	sorcerer		wizard
+.s	magician		wizard
+.s	enchanter		wizard
+
+.d	talk					41
+.s	speak		talk
+.s	say			talk
+.s	yell			talk
+.s	call			talk
+.s	shout		talk
+
+.d	desert				42
+.s	plain		desert
+.s	plains		desert
+.s	land			desert
+
+.d	mirror				43
+.s	looking$glass	mirror
+
+.d	bed					45
+.s	beds			bed
+.s	pillow		bed
+.s	bunk			bed
+.s	bunks		bed
+
+
+.d	under				47
+.s	below		under
+.s	beneath		under
+
+.d	over					48
+.s	top$of		over
+.s	above		over
+.s	across		over
+
+.d	treasure				49
+.s	treasure$chest	treasure
+
+.d	cabinet				50
+.s	cupboard		cabinet
+.s	closet		cabinet
+.s	wardrobe		cabinet
+
+.d	drawer				51
+.s	drawers		drawer
+
+.d	rug					52
+.s	rugs			rug
+.s	carpet		rug
+.s	carpets		rug
+
+.d	out					53
+.s	outside		out
+
+.d	key					54
+
+.d	last					55
+
+.d	put					56
+.s	hide			put
+.s	conceal		put
+.s	dip			put
+.s	drop			put
+.s	drops		put
+.s	set			put
+.s	place		put
+.s	return		put
+.s	include		put
+.s	add			put
+.s	sprinkle		put
+.s	scrape		put
+.s	stack		put
+
+.d	lie					57
+.s	lay			lie
+
+.d	shake				58
+.s	wave			shake
+.s	point		shake
+.s	aim			shake
+.s	swing		shake
+.s	touch		shake
+
+.d	top					59
+
+.d	empty				60
+.s	remove		empty
+.s	extract		empty
+.s	draw			empty
+.s	withdraw		empty
+.s	drain		empty
+.s	spill		empty
+.s	pour			empty
+
+.d	tapestry				61
+.s	drapery		tapestry
+.s	picture		tapestry
+
+.d	behind				62
+.s	back			behind
+
+.d	door					63
+.s	doors		door
+.s	doorway		door
+.s	doorways		door
+
+.d	clothes				64
+.s	gown			clothes
+.s	gowns		clothes
+.s	slipper		clothes
+.s	slippers		clothes
+.s	hat			clothes
+.s	hats			clothes
+.s	robe			clothes
+.s	robes		clothes
+
+.d	lock					65
+.s	latch		lock
+.s	bolt			lock
+
+.d	break				66
+.s	smash		break
+.s	shatter		break
+.s	tear			break
+.s	rip			break
+.s	destroy		break
+
+.d	dresser				67
+.s	bureau		dresser
+.s	chest$of$drawers dresser
+
+.d	inventory				68
+.s	possessions	inventory
+.s	things		inventory
+.s	item			inventory
+.s	items		inventory
+.s	object		inventory
+.s	objects		inventory
+.s	stuff		inventory
+.s	all			inventory
+.s	everything	inventory
+.s	belongings	inventory
+
+.d	hear					69
+.s	listen		hear
+
+.d	table				70
+.s	desk			table
+.s	counter		table
+
+.d	shelf				71
+.s	bookshelf		shelf
+.s	bookshelves	shelf
+.s	bookcase		shelf
+.s	shelves		shelf
+
+.d	book					72
+.s	books		book
+.s	sorcery$of$old	book
+.s	volume		book
+.s	page			book
+
+.d	wand					73
+.s	rod			wand
+
+.d	lever				74
+.s	handle		lever
+
+.d	trapdoor				75
+.s	hatch		trapdoor
+
+.d	duster				76
+
+.d	read					77
+
+.d	clean				78
+.s	dust			clean
+.s	wipe			clean
+.s	sweep		clean
+
+.d	lard					79
+
+.d	fireplace				80
+.s	hearth		fireplace
+.s	mantle		fireplace
+
+.d	wood					81
+.s	log			wood
+.s	logs			wood
+.s	tree			wood
+.s	trees		tree
+.s	forest		trees
+.s	woods		trees
+
+.d	start				82
+.s	begin		start
+.s	build		start
+
+.d	light				83
+.s	ignite		light
+.s	candle		light
+.s	candles		light
+.s	burn			light
+.s	torch		light
+.s	torches		light
+
+.d	fire					84
+.s	flame		fire
+.s	flames		fire
+
+.d	pot					85
+.s	chamber$pot	pot
+.s	pots			pot
+.s	pan			pot
+.s	pans			pot
+.s	skillet		pot
+.s	skillets		pot
+.s	kettle		pot
+.s	kettles		pot
+
+.d	vanity				86
+.s	nightstand	vanity
+
+.d	rack					87
+.s	holder		rack
+
+.d	basket				88
+.s	baskets		basket
+.s	wastebasket	basket
+.s	waste$basket	basket
+
+.d	churn				89
+.s	butter$churn	churn
+
+.d	ceiling				90
+.s	roof			ceiling
+
+.d	beam					91
+.s	beams		beam
+.s	rafter		beam
+.s	rafters		beam
+
+.d	herb					92
+.s	herbs		herb
+.s	spice		herb
+.s	spices		herb
+
+.d	food					93
+.s	meal			food
+
+.d	bread				94
+.s	loaf			bread
+.s	loaf$of$bread	bread
+
+.d	fruit				95
+.s	apple		fruit
+.s	grapes		fruit
+
+.d	meat					96
+.s	mutton		meat
+.s	mutton$chop	meat
+.s	chop			meat
+
+.d	eat					97
+.s	swallow		eat
+.s	drink		eat
+.s	taste		eat
+
+.d	spoon				98
+.s	ladle		spoon
+.s	spoonful		spoon
+.s	spoonfuls		spoon
+.s	spoons		spoon
+
+.d	knife				99
+.s	dagger		knife
+
+.d	cut					100
+.s	carve		cut
+.s	slice		cut
+.s	cut$up		cut
+.s	chop$up		cut
+
+.d	bowl					101
+.s	bowls		bowl
+.s	basin		bowl
+
+.d	broom				102
+
+.d	sit					103
+.s	sit$down		sit
+.s	get$in		sit
+
+.d	moose				104
+.s	moosehead		moose
+
+.d	give					105
+.s	serve		give
+.s	offer		give
+.s	feed			give
+
+.d	tunnel				106
+.s	passage		tunnel
+
+.d	poison				107
+.s	poisoned		poison
+
+.d	lid					108
+.s	cork			lid
+.s	plug			lid
+.s	stopper		lid
+.s	cover		lid
+.s	cap			lid
+
+.d	jar					109
+.s	jars			jar
+.s	bottle		jar
+.s	bottles		jar
+.s	empty$jar		jar
+
+.d	saffron				110
+
+.d	beaker				111
+.s	beakers		beaker
+.s	measuring$cup	beaker
+.s	measuring$cups	beaker
+.s	flask		beaker
+.s	flasks		beaker
+.s	stirrer		beaker
+.s	stirrers		beaker
+
+.d	bone					112
+.s	fishbone		bone
+.s	fish$bone		bone
+.s	bones		bone
+.s	skull		bone
+.s	skulls		bone
+.s	skeleton		bone
+.s	skeletons		bone
+
+.d	equipment				113
+.s	implements	equipment
+.s	instruments	equipment
+
+.d	essence				114
+
+.d	mixture				115
+.s	dough		mixture
+.s	compound		mixture
+
+.d	vial					116
+.s	vials		vial
+.s	capsule		vial
+.s	capsules		vial
+
+.d	off					117
+
+.d	nightshade			118
+.s	night$shade	nightshade
+
+.d	mandrake				119
+
+.d	mushroom				120
+.s	toadstool		mushroom
+.s	toad$stool	mushroom
+
+.d	spit					121
+.s	spittle		spit
+
+.d	frog					122
+.s	toad			frog
+
+.d	pestle				123
+.s	mortar		pestle
+.s	mortar$and$pestle	pestle
+.s	pestle$and$mortar	pestle
+
+.d	burner				124
+.s	brazier		burner
+
+.d	grind				125
+.s	crush		grind
+.s	crumble		grind
+.s	pound		grind
+
+.d	powder				126
+.s	flour		powder
+.s	grain		powder
+.s	grains		powder
+
+.d	charcoal				127
+.s	coal			charcoal
+
+.d	heat					128
+.s	cook			heat
+.s	warm			heat
+.s	boil			heat
+
+.d	cup					129
+.s	empty$cup		cup
+
+.d	ball					130
+.s	balls		ball
+.s	piece		ball
+.s	pieces		ball
+
+.d	brew					131
+.s	storm$brew	brew
+
+.d	bird					132
+.s	birds		bird
+.s	chicken		bird
+.s	chickens		bird
+.s	buzzard		bird
+.s	buzzards		bird
+.s	vulture		bird
+.s	vultures		bird
+.s	crow			bird
+.s	crows		bird
+.s	gull			bird
+.s	gulls		bird
+.s	seagull		bird
+.s	seagulls		bird
+
+.d	fur					133
+.s	hair			fur
+
+.d	snake				134
+.s	serpent		snake
+.s	reptile		snake
+
+
+.d	skin					135
+.s	snake$skin	skin
+.s	snakeskin		skin
+.s	reptile$skin	skin
+
+.d	thimble				136
+.s	thimbles		thimble
+.s	thimbleful	thimble
+
+.d	dew					137
+
+.d	hand					138
+.s	hands		hand
+.s	fingers		hand
+.s	handful		hand
+.s	hand$full		hand
+
+.d	mix					139
+.s	stir			mix
+.s	knead		mix
+
+.d	separate				140
+.s	halve		separate
+.s	divide		separate
+.s	split		separate
+
+.d	make					141
+.s	form			make
+.s	shape		make
+
+.d	chore				142
+.s	job			chore
+
+.d	ears					143
+
+.d	use					144
+.s	with			use
+.s	using		use
+.s	try			use
+
+.d	porridge				145
+
+.d	status				146
+
+.d	hold					147
+.s	carry		hold
+.s	reach		hold
+.s	grasp		hold
+.s	grab			hold
+
+.d	hang					148
+.s	suspend		hang
+
+.d	me					149
+.s	self			me
+.s	myself		me
+.s	i'm			me
+.s	gwydion		me
+.s	boy			me
+.s	alexander		me
+
+.d	salt					150
+.s	salt$grains	salt
+.s	grains$of$salt	salt
+
+.d	mistletoe				151
+
+.d	stone				152
+.s	stones		stone
+.s	rock			stone
+.s	rocks		stone
+
+.d	rub					153
+.s	pet			rub
+.s	pat			rub
+.s	smear		rub
+
+.d	kiss					154
+.s	hug			kiss
+.s	embrace		kiss
+
+.d	acorn				155
+.s	acorns		acorn
+
+.d	spread				156
+.s	flatten		spread
+.s	press		spread
+.s	squash		spread
+.s	squeeze		spread
+
+.d	sleep				157
+.s	sleeping		sleep
+.s	slumber		sleep
+
+.d	oil					158
+.s	fish$oil		oil
+
+.d	cookie				159
+.s	patty		cookie
+
+.d	water				160
+.s	liquid		water
+
+.d	mud					161
+
+.d	pinch				162
+.s	bit			pinch
+
+.d	blow					163
+
+.d	untie				164
+.s	unfasten		untie
+.s	release		untie
+.s	let$go		untie
+.s	let$go$of		untie
+
+.d	finger				165
+
+.d	plant				166
+.s	plants		plant
+.s	bush			plant
+.s	bushes		plant
+.s	shrub		plant
+.s	shrubs		plant		 
+.s	brush		plant
+
+.d	cactus				167
+.s	cactii		cactus
+
+.d	bucket				168
+.s	pail			bucket
+
+.d	juice				169
+
+.d	fill					170
+
+.d	spell				171
+.s	spells		spell
+
+.d	away					172
+
+.d	on					173
+.s	onto			on
+.s	on$to		on
+
+.d	look$in				174
+.s	look$through	look$in
+.s	look$inside	look$in
+.s	look$into		look$in
+
+.d	up					175
+
+.d	down					176
+
+.d	pouch				177
+.s	pouches		pouch
+
+.d	flint				178
+
+.d	root					179
+
+.d	fish					180
+.s	fishes		fish
+
+.d	chest				181
+.s	trunk		chest
+
+.d	ointment				182
+
+.d	shovel				183
+
+.d	unlock				184
+
+.d	from					185
+
+.d	close				186
+.s	shut			close
+
+.d	coin					187
+.s	coins		coin
+.s	gold			coin
+.s	money		coin
+
+.d	furniture				188
+.s	furnishings	furniture
+
+.d	room					189
+.s	chamber		room
+.s	area			room
+
+.d	magic				190
+.s	magical		magic
+
+.d	pen					191
+.s	coop			pen
+.s	cage			pen
+.s	fence		pen
+.s	wall			fence
+.s	walls		wall
+
+.d	corner				192
+
+.d	cat					193
+.s	kitty		cat
+
+.d	dog					194
+.s	kenny		dog
+.s	lance		dog
+.s	mutt			dog
+
+.d	storm				195
+.s	storms		storm
+
+.d	store				196
+.s	shop			store
+
+.d	inside				197
+
+.d	foot					198
+
+.d	ship					199
+.s	vessel		ship
+
+.d	boat					200
+.s	lifeboat		boat
+
+.d	feather				201
+.s	feathers		feather
+
+.d	amber				202
+
+.d	number				203
+
+.d	chair				204
+.s	chairs		chair
+.s	seat			chair
+.s	seats		chair
+.s	bench		chair
+.s	benches		chair
+
+.d	one					205
+
+.d	two					206
+
+.d	three				207
+
+.d	four					208
+
+.d	five					209
+
+.d	six					210
+
+.d	seven				211
+
+.d	eight				212
+
+.d	nine					213
+
+.d	ten					214
+
+.d	gimme				215
+
+.d	smell				216
+.s	sniff		smell
+
+.d	glint				217
+
+.d	throw				218
+.s	toss			throw
+
+.d	begone				219
+
+.d	ii					220
+.d	iv					221
+.d	vii					222
+.d	xiv					223
+.d	xxv					224
+.d	lxxxiv				225
+.d	clxix				226
+
+[.d	227
+
+.d	head					228
+
+.d	kill					229
+.s	murder		kill
+.s	slay			kill
+.s	stab			kill
+
+.d	half					230
+.s	one-half		half
+
+.d	pluck				231
+
+.d	wake					232
+.s	wake$up		wake
+
+.d	knob					233
+.s	knobs		knob
+
+.d	wrote				234
+.s	programmed	wrote
+
+.d	save					235
+
+.d	restore				236
+
+.d	game					237
+
+.d	map					238
+.s	scroll		map
+
+.d	barrel				239
+.s	barrels		barrel
+.s	keg			barrel
+.s	kegs			barrel
+
+.d	crows$nest			240
+.s	crowsnest		crows$nest
+
+.d	flower				241
+.s	flowers		flower
+
+.d	sky					242
+
+.d	mast					243
+
+.d	chasm				244
+.s	canyon		chasm
+.s	gorge		chasm
+.s	valley		chasm
+
+.d	ladder				245
+.s	rope$ladder	ladder
+
+.d	hill					246
+.s	hills		hill
+.s	mountains		hill
+.s	mountain		hill
+.s	cliff		hill
+.s	cliffs		hill
+.s	peak			hill
+.s	peaks		hill
+.s	bluff		hill
+.s	bluffs		hill
+
+.d	cloud				247
+.s	clouds		cloud
+.s	fog			cloud
+
+.d	path					248
+.s	trail		path
+
+.d	how					249
+
+.d	long					250
+.s	length		long
+
+.d	time					251
+
+.d	playing				252
+.s	play			playing
+.s	ski			playing
+
+.d	help					253
+
+[.d	254
+
+.d	hole					255
+.s	porthole		hole
+
+.d	rope					256
+
+.d	stream				257
+.s	creek		stream
+.s	river		stream
+.s	waterfall		stream
+
+.d	bear					258
+.s	bears		bear
+
+.d	garden				259
+.s	yard			garden
+
+.d	knock				260
+.s	bang			knock
+
+.d	hit					261
+.s	punch		hit
+.s	strike		hit
+.s	kick			hit
+
+.d	web		 			262
+.s	spiderweb		web
+
+.d	cave					263
+.s	caves		cave
+.s	cavern		cave
+
+.d	spider				264
+.s	spiders		spider
+
+.d	house				265
+.s	houses		house
+.s	treehouse		house
+.s	tree$house	house
+.s	hideout		house
+.s	hide-out		house
+.s	hide$out		house
+.s	cottage		house
+.s	building		house
+.s	buildings		house
+.s	shack		house
+
+.d	town					266
+.s	village		town
+
+.d	pier					267
+.s	wharf		pier
+.s	dock			pier
+
+.d	ocean				268
+.s	waves		ocean
+.s	bay			ocean
+.s	sea			ocean
+
+.d	beach				269
+.s	sand			beach
+
+.d	gate					270
+
+.d	there				271
+.s	here			there
+
+.d	anchor				272
+
+.d	swim					273
+.s	dive			swim
+
+.d	crystal				274
+.s	crystal$ball	crystal
+
+[.d	275
+
+.d	supplies				276
+.s	goods		supplies
+.s	wares		supplies
+
+.d	steal				277
+.s	rob			steal
+.s	swipe		steal
+
+.d	beer					278
+.s	ale			beer
+.s	rum			beer
+.s	liquor		beer
+.s	booze		beer
+.s	wine			beer
+
+[.d	279
+
+[.d	280
+
+.d	sword				281
+.s	swords		sword
+
+.d 	buy					282
+.s	purchase		buy
+.s	spend		buy
+.s	order		buy
+
+[.d	pirate				283
+
+.d	man					284
+.s	men			man
+.s	guy			man
+.s	guys			man
+.s	captain		man
+.s	captains		man
+.s	sailor		man
+.s	sailors		man
+.s	pirate		man
+.s	pirates		man
+.s	crew			man
+.s	bandit		man
+.s	bandits		man
+.s	rogue		man
+.s	rogues		man
+.s	storekeeper	man
+.s	shop$keeper	man
+.s	shopkeeper	man
+.s	clerk		man
+.s	customers		man
+.s	guard		man
+.s	sentry		man
+.s	dwarf		man
+.s	king			man
+.s	gnome		man
+.s	oracle		man
+.s	image		man
+.s	ghost		man
+
+.d	girl					285
+.s	barmaid		girl
+.s	bartender		girl
+.s	waitress		girl
+.s	princess		girl
+.s	princess$rosella girl
+.s	rosella		girl
+.s	woman		girl
+.s	queen		girl
+.s	medusa		girl
+.s	statue		girl
+
+.d	squirrel				286
+.s	squirrels		squirrel
+.s	animal		squirrel
+.s	animals		squirrel
+
+.d	lizard				287
+.s	lizards		lizard
+
+[.d	288
+
+.d	stove				289
+.s	woodstove		stove
+.s	oven			stove
+
+.d	jump					290
+
+.d	crate				291
+.s	crates		crate
+.s	box			crate
+.s	boxes		crate
+.s	bin			crate
+.s	bins			crate
+
+.d	well					292
+
+.d	castle				293
+.s	palace		castle
+
+.d	porch				294
+
+.d	name					295
+
+.d	snow					296
+
+.d	thanks				297
+.s	thank		thanks
+.s	thank$you		thanks
+
+.d	find					298
+.s	search		find
+.s	locate		find
+.s	where		find
+
+.d	dirty$word			299
+.s	pussy		dirty$word
+.s	shit			dirty$word
+.s	piss			dirty$word
+.s	fuck			dirty$word
+.s	cunt			dirty$word
+.s	screw		dirty$word
+.s	fart			dirty$word
+.s	mother$fucker	dirty$word
+.s	tits			dirty$word
+.s	tit			dirty$word
+.s	ass			dirty$word
+.s	asshole		dirty$word
+.s	fucking		dirty$word
+
+.d	hi					300
+.s	hello		hi
+
+.d	dragon				301
+.s	snowman		dragon
+.s	monster		dragon
+.s	yeti			dragon
+
+.d	eagle				302
+
+.d	count				303
+
+.d	body					304
+
+
+
+
+.d	dig					400
+
+.d	mice					401
+.s	mouse		mice
+.s	rat			mice
+.s	rats			mice
+
+.d	shark				402
+.s	sharks		shark
+
+.d	moat					403
+
+.d	drinks				404
+.s	round$of$drinks drinks
+.s	round		drinks
+
+
+.d	clock				800
+
+.d	visible				801
+
+.d	clear				802
+
+.d	henceforth			803
+
+.d	rain					804
+.s	lightning		rain
+
+.d	thunder				805
+
+.d	yes					806
+
+.d	no					807
+
+.d	purse				808
+.s	coin$purse	purse
+
+.d	bag					809
+
+[.d	810
+[.d	811
+[.d	812
+
+.d	nothing				813
+
+.d	rol					9999
+

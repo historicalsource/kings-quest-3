@@ -1,0 +1,87 @@
+[
+[	object.txt
+[
+[				OBJECT TABLES FOR KING'S QUEST ]I[
+[
+[	February 29, 1988
+[
+
+
+
+[************* ANIMATED OBJECTS
+[.numani	# of animated objects
+
+.numani	16
+
+
+
+[************* INVENTORY OBJECTS
+[.obj	object#, "Status screen name", room # at beginning of game
+
+.obj		1,  "Chicken Feather*", 34		[	Spell #1
+.obj		2,  "Cat Hair*", 0
+.obj		3,  "Dog Hair*", 39
+.obj		4,  "Snakeskin*", 11
+.obj		5,  "Powdered Fish Bone*", 10
+.obj		6,  "Thimble*", 42
+.obj		7,  "Thimble and Dew*", 28
+.obj		8,  "Dough in Ears", 121
+
+.obj		9,  "Eagle Feather*", 114		[	Spell #2
+.obj		10, "Fly Wings*", 1
+.obj		11, "Saffron*", 10
+.obj		12, "Rose Essence*", 2
+
+.obj		13, "Salt*", 39				[	Spell #3
+.obj		14, "Amber Stone*", 36
+.obj		15, "Mistletoe*", 29
+.obj		16, "Magic Stone*", 123
+
+.obj		17, "Nightshade Juice*", 10		[	Spell #4
+.obj		18, "Acorns*", 22
+.obj		19, "Empty Pouch*", 39
+.obj		20, "Sleep Powder*", 124
+
+.obj		21, "Mandrake Root*", 10			[	Spell #5
+.obj		22, "Fish Oil*", 39
+.obj		23, "Cat Cookie*", 125
+.obj		24, "Porridge", 41
+.obj		25, "Poisoned Porridge", 125
+
+.obj		26, "Ocean Water*", 0		[	Spell #6
+.obj		27, "Mud*", 0
+.obj		28, "Toadstool Powder*", 10
+.obj		29, "Empty Jar*", 39
+.obj		30, "Storm Brew*", 126
+
+.obj		31, "Toad Spittle*", 10			[	Spell #7
+.obj		32, "Lard*", 39
+.obj		33, "Knife", 6
+.obj		34, "Cactus*", 21
+.obj		35, "Empty Lard Jar*", 39
+.obj		36, "Invisibility Ointment*", 127
+
+.obj		37, "Magic Wand*", 5
+.obj		38, "Brass Key*", 2
+.obj		39, "Magic Rose Essence*", 39		[	should be object 12 & 1/2
+.obj		40, "Bowl", 6
+.obj		41, "Spoon", 6
+.obj		42, "Empty Cup", 8
+.obj		43, "Mirror*", 2
+
+.obj		44, "", 2						[	Chamber Pot", 2
+.obj		45, "", 6						[	Broom", 6
+.obj		46, "", 5						[	Feather Duster", 5
+
+.obj		47, "Empty Purse*", 0
+.obj		48, "Purse and Gold Coins*", 38
+
+.obj		49, "Bread", 6					[	Wizard food
+.obj		50, "Fruit", 6
+.obj		51, "Mutton", 6
+
+.obj		52, "Shovel", 84
+.obj		53, "Treasure Chest", 49
+
+.obj		54, "Magic Map*", 2
+

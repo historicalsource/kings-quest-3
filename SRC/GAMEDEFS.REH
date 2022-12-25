@@ -1,0 +1,206 @@
+[
+[	GAMEDEFS.REH
+[
+[				Bob Heitman's gamedefs extensions
+[
+[	March 10, 1987
+[
+
+
+
+
+#include	"gamedefs.h" 
+#include	"views.h"
+
+[ Constants
+
+#define	snowman.step.size		2
+#define	snowman.grab.distance	11
+#define	SNOREDELAY			22		[ cycles, not seconds
+
+
+[  beenIn ranges. Flags for map are reused. (see the rooms logic)
+#define	firstIn77		73	[ same flag as beenIn30
+#define	firstIn48		73	[ same flag as beenIn21
+#define	firstIn61		73	[ same flag as beenIn21
+#define	lastIn77		51	
+#define	lastIn48		52
+#define	lastIn61		53
+
+#define	wade.deep		223	[Used by lgc.swim
+#define	swim			224	[
+
+#define	hands.off		handsOff
+#define	ship.shape	shipShape
+
+
+
+
+[		  Bob's flags are 170-219
+
+[******** FLAGS **********
+#flag	was.invisible			170
+#flag	escaped.snowman		171
+#flag	snowman.on.screen		172
+#flag	snowman.arrived		173
+#flag	seen.hole.message		174
+#flag	baby.chair.broke		175
+#flag	seen.oracle			176
+#flag	pirate.pissed			177	[ room 75, for talking too much
+[#flag	178
+[#flag	179
+#flag	eagleGone				180	[ end of eagle flight
+#flag	crewAsleep			181	[ flag for pirate logic
+#flag	girlSaved				182	[ from dragon and untied
+#flag	dragonDead			183	[ storm struck
+#flag	withEgo				184	[ for follow logic
+#flag	dontHaveStuff			185	[ when taken by pirates
+#flag	hasShovel				186	[ until hole is dug
+[#flag 	187
+#flag	chestOpen				188	[ captains chest
+#flag	gnomeGone				189	[ left room after rescue
+#flag	bombsAway				190	[ feather dropped
+#flag	featherHere			191	[ the feather has landed
+#flag	holeDug				192	[ hole in room 49
+[ heard mice messages flags
+#flag	mice.1				193
+#flag	mice.2				194
+#flag	knows.location			194	[ message from mice
+#flag	mice.3				195
+#flag	mice.4				196
+#flag	mice.5				197
+#flag	fish.1				192
+#flag	fish.2				193
+#flag	fish.3				194
+#flag	fish.4				195
+#flag	got.purse				196
+#flag	found.house			197
+#flag	entered.castle			198
+#flag	tossed.in				199
+#flag	eagleHere				200
+#flag	wandered				201
+#flag	gulla.wandered			202
+#flag	gullb.wandered			203
+#flag	scored.for.hold		204
+#flag	gotPurseOnce			205
+#flag	found.stuff.once		206
+#flag	scoredForChest			207	[	Added by AL, April 30, 1987
+
+
+
+
+
+
+
+[******** VARS **********
+
+[		  Bob's vars are  170-219:
+#var		snowman.x				170
+#var		snowman.y				171
+#var		bandit.status			172	[set by rm 37
+	#define	asleep			0
+	#define	awake			1
+
+[ room 31/32 globals
+#var		rooms.before.exit		173
+	#define	 rooms.before.drown		rooms.before.exit
+	#define	now		0
+	#define	never	15	[not used in with drowning
+#var		desert.seconds			174
+	#define	ocean.seconds		desert.seconds
+
+#var		desert.minutes			175
+	#define	ocean.minutes		desert.minutes
+
+#var		exit.edge				176	[ exit from the mazes
+#var		mountain.x			177	[ for desert maze mountain
+#var		shore.room			178	[ return room
+#var		land.room				178
+
+
+#var		girlTalk				180	[ how many times we've spoken
+#var		gnomeTalk				181	[ same for gnome
+#var		boxState				182	[ == room number or 0 if ego got it
+#var		plankWalk				183	[ used in 82 to walk plank
+	#define	startWalk		1
+	#define	endWalk		2
+	#define	doSplash		3
+#var		eagleTimer			184
+
+[ global box position
+#var		boxXpos				185
+#var		boxYpos				186
+#var		timesCaught			187	[ by the captain and crew
+#var		shovelX				188
+#var		shovelY				189
+#var		bowlsOnTable			190	[ three bears house
+
+#var		snowman.script			191
+	#define	no.snowman	0
+	#define	lgc.snowman.loaded	1
+	#define	make.snowman.come	2
+	#define	snowman.init.done	3
+	#define	snowman.after.ego	4
+	#define	snowman.at.ego		5
+	#define	snowman.dragging.ego 6
+	#define	snowman.off.screen	7
+	#define	exit.stage.left	101
+	#define	erase.snowman		102
+
+#var	west.room					192	[ for room 31 llewdor exits
+
+
+
+[ Variable constants
+#define	sound.done	lf18
+
+
+
+[ OBJECTS
+#object	aPrincess		15	[ she's dynamic from cloudland on to castle
+#object	aShovel		12	[ room 84 and 49
+#object	aCaptain		4	[ in room 83 only
+#object	aPirate		1	[ rooms 78, 79, 81, 84, 49 
+#object	aChest		3	[ room 83 and room 49
+#object	a.snowman		15	[	same as wiz, but no conflict
+
+#object	plank		3
+#object	aShark		4	[ rooms 48 and 49 and 82
+#object	wake1		5	[ room 82
+#object	wake2		6	[ room 82
+
+#object	banners		1	[ room 71, 72
+#object	aDoor		3	[ room 71
+#object	aGnome		1	[ room 69 only
+#object	anEagle		10	[ some Llewdor rooms
+#object	aFeather		11	[  "     "      "
+#object	aBox			1	[ rooms 85 and 86 only
+#object	aMouse1		2	[ room 86 only
+#object	aMouse2		3
+#object	aShip		1
+#object	aWave		2
+[ room 78
+#object	aFlag	2
+#object	aSparkle1	5
+#object	aSparkle2	6
+#object	aSparkle3	7
+#object	aSparkle4	8
+
+
+#object	aHead1		1	[ room 66
+#object	aHead2		2
+#object	aHead3		3
+
+#object	aFlame1		11	
+#object	aFlame2		12
+#object	aBolt		13	[ storm rooms
+
+[ VIEWS (until added to gamedefs)
+#view	v.splash.big	162
+
+
+[ LOGIC
+
+
+[ WORDS	
+

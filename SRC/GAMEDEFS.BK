@@ -1,0 +1,14 @@
+[
+[	gamedefs.bk
+[
+[		THE BOB KERNAGHAN MEMORIAL KING'S QUEST ]I[ GAME DEFINITIONS
+[
+[	March 10, 1987
+[
+
+
+
+%include	"defines.al"
+%include	"gamedefs.h"
+%include	"views.h"
+
